@@ -1,0 +1,42 @@
+.imdProdutoContent{
+    width: 300px;
+    height: 200px;
+}
+
+.imgProduto{
+    width: 100%;
+    display: block;
+}
+.ContainerProdutos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 21px;
+}
+
+.cardProduto{
+    background-color: rgb(21, 21, 160);
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    
+}
+.cardProduto:hover{
+    background-color: #ccc;
+    box-shadow: 5px 10px 5px rgb(105, 105, 223);
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info p{
+    font-size: 20px;
+    color: #fff;
+}

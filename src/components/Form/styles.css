@@ -1,0 +1,27 @@
+form{
+    width: 300px;
+    margin: 80px auto;
+    margin-bottom: 150px;
+    border-bottom: 1px solid rgb(21, 21, 160);
+   
+}
+.form-control-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+.form-control-group label{
+    margin-bottom: 5px;
+}
+button{
+     background-color: rgb(21, 21, 160);
+     height: 35px;
+     width: 100px;
+     color: #fff;
+     border: none;
+     border-radius: 10px;
+     margin-bottom: 20px;
+}
+
+@media(max-width:500px){}

@@ -1,0 +1,30 @@
+Footer{
+    background-color:  rgb(21, 21, 160);
+    height: 50px;
+    width: 100%;
+
+    margin-top: 200px;
+    
+    bottom:0;
+   
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    color: yellow;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.contato,.sobre{
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width:500px){
+  footer{
+      margin-top: 50px;
+  }  
+}
